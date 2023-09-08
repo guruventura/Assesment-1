@@ -1,0 +1,33 @@
+Difference between HTTP1.1 vs HTTP2 
+
+HTTP stands for hypertext transfer protocol & it is used in client-server communication. By using HTTP user sends the request to the server & the server sends the response to the user. 
+
+HTTP 1.1
+HTTP/1.1 which was created in 1997, It enables client and server machines’ interaction 
+Using GET/POST request a service to the server
+server includes the required source within the HTML page in response to the initial GET request 
+It uses requests resource Inlining for use getting multiple pages 
+It works on the textual format.
+
+HTTP 2
+HTTP/2 which was created in 2015
+Here, both machines can implement their flow controls instead of using the transport layer instead of using the transport layer  
+multiplexes data streams utilizing the same (one) TCP connection 
+HTTP/2 supports multiple simultaneous responses to the client’s initial GET request, the server provides the required resource along with the requested HTML page
+it uses PUSH frame by server that collects all multiple pages 
+It works on the binary protocol 
+
+
+Blog about objects and its internal representation in Javascrip 
+      
+
+An object is a software bundle of variables and related methods. object is a stand alone entity, with properties and type 
+
+       Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) 
+
+Objects can also have methods.Methods are actions that can be performed on objects.
+Methods are stored in properties as function definitions
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value 
+
+ JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object 
